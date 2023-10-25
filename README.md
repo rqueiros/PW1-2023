@@ -1,5 +1,4 @@
 # PW1-2023
-# IPSD2023
 
 # Exercise Sheet Solutions
 
