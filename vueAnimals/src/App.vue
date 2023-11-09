@@ -37,8 +37,8 @@ export default {
     }
     if (!localStorage.users) {
       const users = [
-        { username: "rui", password: "12345" },
-        { username: "maria", password: "54321" },
+        { username: "rui", password: "12345", type:"admin" },
+        { username: "maria", password: "54321", type:"guest" },
       ];
       localStorage.users = JSON.stringify(users);
     }
