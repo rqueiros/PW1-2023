@@ -36,10 +36,10 @@ const router = createRouter({
       component: AnimalView,
     },
     {
-      path: "/xxx",
+      path: "/:pathMatch(.*)*",
       name: "pagenotfound",
       component: PageNotFoundView,
-    }
+    },
   ],
 });
 

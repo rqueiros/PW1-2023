@@ -1,15 +1,15 @@
 <template>
-    <div>
-
+  <div>
+    Animal {{ $route.params.id }}
+    <br>
+    <v-btn @click="$router.go(-1)">
+        BACK
+    </v-btn>
     </div>
 </template>
 
 <script>
-    export default {
-        
-    }
+export default {};
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>
