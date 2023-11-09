@@ -1,6 +1,6 @@
 <template>
     <div>
-
+        NO RESOURCE FOUND!
     </div>
 </template>
 
