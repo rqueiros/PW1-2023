@@ -24,7 +24,7 @@ export default {
         (user) => user.username == this.username && user.password == this.pass
       );
       if (user) {
-        localStorage.loggedUser = user;
+        localStorage.loggedUser = JSON.stringify(user);
         this.$router.push({ name: "animals" });
       } else {
         alert("Invalid User!");
